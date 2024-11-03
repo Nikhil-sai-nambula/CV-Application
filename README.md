@@ -11,7 +11,7 @@ This resume website showcases a **clean and responsive design**, allowing users 
 
 ### Visit the Website
 
-[CV Application Website](https://nikhil-sai-nambula.github.io/CV-Application/)
+[CV Application Website](https://cv-application-beige.vercel.app/)
 
 ### Features
 
