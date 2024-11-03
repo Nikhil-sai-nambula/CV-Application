@@ -7,7 +7,11 @@ This resume website showcases a **clean and responsive design**, allowing users 
 - **Work Experience**
 - **Education**
 - **Technical Skills**
-- **Details**
+- **Other Details**
+
+### Visit the Website
+
+[CV Application Website](https://nikhil-sai-nambula.github.io/CV-Application/)
 
 ### Features
 
@@ -15,10 +19,6 @@ This resume website showcases a **clean and responsive design**, allowing users 
 - **Dynamic User Experience**: Engaging features enhance interactivity
 
 ![Screenshot of CV Application](image.png)
-
-### Visit the Website
-
-Explore my qualifications and projects at: [CV Application Website](https://nikhil-sai-nambula.github.io/CV-Application/)
 
 ---
 
