@@ -1,10 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 # CV-Application
+
+This resume website features a clean and responsive design, allowing users to easily navigate through different sections, including my work experience, education, technical skills, and personal projects. Utilizing React's component-based architecture, the website ensures optimal performance making it an ideal platform to present my qualifications to potential employers. The integration of dynamic features enhances user engagement and provides a comprehensive view of my capabilities in a visually appealing format.
+
+![alt text](image.png)
