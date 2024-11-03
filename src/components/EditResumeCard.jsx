@@ -127,6 +127,7 @@ export default function EditResumeCard({
 
   const toogleDetailsClick = () => {
     setDetailsSectionDisplay((prev) => !prev);
+
     setTitleButtonDisplay((prev) => {
       prev == true ? !prev : null;
     });
@@ -160,7 +161,9 @@ export default function EditResumeCard({
 
   const toggleClickExperienceClick = () => {
     setexperienceSectionDisplay((prev) => !prev);
-
+    seteducationSectionDisplay((prev) => {
+      prev == true ? !prev : null;
+    });
     setTitleButtonDisplay((prev) => {
       prev == true ? !prev : null;
     });
