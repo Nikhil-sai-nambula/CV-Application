@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Input = ({ type, name, value, handleChange }) => {
+const Input = ({ type = "text", name, value, handleChange }) => {
   return (
     <StyledWrapper>
       <div className="form__group field">

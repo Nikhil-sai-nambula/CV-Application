@@ -5,6 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   build: {
+    chunkSizeWarningLimit: 1000, // Set this to a higher value, e.g., 1000 kB
     rollupOptions: {
       external: ["styled-components"],
     },
