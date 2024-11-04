@@ -14,9 +14,9 @@ export default function EditResumeCard({
   const [skillList, setSkillList] = useState([]);
   const [experienceList, setexperienceList] = useState([]);
   const [educationList, setEducationList] = useState([]);
-  const placeholderDate = new Date(2001, 6, 31).toISOString().split("T")[0];
-  const EdnStartDate = new Date(2019, 6, 31).toISOString().split("T")[0];
-  const EdnEndDate = new Date(2023, 4, 31).toISOString().split("T")[0];
+  const placeholderDate = new Date(2001, 6, 27).toISOString().split("T")[0];
+  const EdnStartDate = new Date(2019, 6, 27).toISOString().split("T")[0];
+  const EdnEndDate = new Date(2023, 4, 27).toISOString().split("T")[0];
 
   //For handling the displaying of respective component on toggling button
   const [titleButtonDisplay, setTitleButtonDisplay] = useState(false);

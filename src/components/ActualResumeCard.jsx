@@ -9,6 +9,7 @@ import SvgDisplay from "./SvgDisplay";
 import MainHeading from "./headingComponenets/MainHeading";
 
 const ActualResumeCard = forwardRef(({ resumeData }, ref) => {
+  console.log(resumeData);
   return (
     <div className="main-resume" id="main-resume" ref={ref}>
       <div className="title-card">

@@ -7,13 +7,13 @@ import { useRef, useState } from "react";
 export default function MainPage() {
   const resumeRef = useRef();
 
-  const placeholderDate = new Date(2001, 6, 31).toISOString().split("T")[0];
-  const EdnStartDate = new Date(2019, 6, 31).toISOString().split("T")[0];
-  const EdnEndDate = new Date(2023, 4, 31).toISOString().split("T")[0];
-  const sasiStartDate = new Date(2017, 6, 31).toISOString().split("T")[0];
-  const sasiEndDate = new Date(2019, 5, 31).toISOString().split("T")[0];
-  const jnvStartDate = new Date(2015, 6, 31).toISOString().split("T")[0];
-  const jnvEndDate = new Date(2017, 5, 31).toISOString().split("T")[0];
+  const placeholderDate = new Date(2001, 6, 28).toISOString().split("T")[0];
+  const EdnStartDate = new Date(2019, 6, 27).toISOString().split("T")[0];
+  const EdnEndDate = new Date(2023, 4, 27).toISOString().split("T")[0];
+  const sasiStartDate = new Date(2017, 6, 27).toISOString().split("T")[0];
+  const sasiEndDate = new Date(2019, 5, 27).toISOString().split("T")[0];
+  const jnvStartDate = new Date(2015, 6, 27).toISOString().split("T")[0];
+  const jnvEndDate = new Date(2017, 5, 26).toISOString().split("T")[0];
 
   const [resumeData, setResumeData] = useState({
     skills: [
@@ -29,24 +29,24 @@ export default function MainPage() {
         orgName: "TCS",
         description:
           "Developed scalable RESTful APIs using Java and Spring Boot for enterprise applications, collaborating with cross-functional teams to design efficient backend architecture and ensure high-quality, well-tested software delivery.",
-        EmploymentStartDate: placeholderDate,
-        EmploymentEndDate: placeholderDate,
+        employmentStartDate: placeholderDate,
+        employmentEndDate: placeholderDate,
       },
       {
         role: "Software Developer",
         orgName: "Google",
         description:
           "Designed and maintained robust microservices with Java and Spring Boot, leveraging cloud technologies and DevOps tools for scalable,resilient deployments. Collaborated with teams to enhance backend performance and ensure smooth cloud-based integration across enterprise systems.",
-        EmploymentStartDate: placeholderDate,
-        EmploymentEndDate: placeholderDate,
+        employmentStartDate: placeholderDate,
+        employmentEndDate: placeholderDate,
       },
       {
         role: "Software Developer",
         orgName: "Amazon",
         description:
           "Integrated cloud solutions and DevOps automation to enhance scalability, reliability, and CI/CD. Optimized backend systems for seamless data flow, ensuring efficient deployment and high performance across distributed, cloud-native applications.",
-        EmploymentStartDate: placeholderDate,
-        EmploymentEndDate: placeholderDate,
+        employmentStartDate: placeholderDate,
+        employmentEndDate: placeholderDate,
       },
     ],
     educationList: [
